@@ -1,0 +1,1699 @@
+Microsoft (R) COFF/PE Dumper Version 12.00.31101.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file mosquitto.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+     DD4 size
+correct header end
+
+    115 public symbols
+
+     1C32 __IMPORT_DESCRIPTOR_mosquitto
+     1E64 __NULL_IMPORT_DESCRIPTOR
+     1F9C mosquitto_NULL_THUNK_DATA
+     2B96 __imp_mosquitto_message_copy
+     2B96 mosquitto_message_copy
+     2C0C __imp_mosquitto_message_free
+     2C0C mosquitto_message_free
+     2A96 __imp_mosquitto_max_inflight_messages_set
+     2A96 mosquitto_max_inflight_messages_set
+     2C82 __imp_mosquitto_message_retry_set
+     2C82 mosquitto_message_retry_set
+     2686 __imp_mosquitto_lib_version
+     2686 mosquitto_lib_version
+     2614 __imp_mosquitto_lib_init
+     2614 mosquitto_lib_init
+     25A0 __imp_mosquitto_lib_cleanup
+     25A0 mosquitto_lib_cleanup
+     2CFC __imp_mosquitto_new
+     2CFC mosquitto_new
+     243C __imp_mosquitto_destroy
+     243C mosquitto_destroy
+     30A6 __imp_mosquitto_reinitialise
+     30A6 mosquitto_reinitialise
+     3A66 __imp_mosquitto_will_set
+     3A66 mosquitto_will_set
+     39F2 __imp_mosquitto_will_clear
+     39F2 mosquitto_will_clear
+     3906 __imp_mosquitto_username_pw_set
+     3906 mosquitto_username_pw_set
+     2172 __imp_mosquitto_connect
+     2172 mosquitto_connect
+     2258 __imp_mosquitto_connect_bind
+     2258 mosquitto_connect_bind
+     21E2 __imp_mosquitto_connect_async
+     21E2 mosquitto_connect_async
+     22CE __imp_mosquitto_connect_bind_async
+     22CE mosquitto_connect_bind_async
+     2F40 __imp_mosquitto_reconnect
+     2F40 mosquitto_reconnect
+     2FB2 __imp_mosquitto_reconnect_async
+     2FB2 mosquitto_reconnect_async
+     24AC __imp_mosquitto_disconnect
+     24AC mosquitto_disconnect
+     2E52 __imp_mosquitto_publish
+     2E52 mosquitto_publish
+     33E4 __imp_mosquitto_subscribe
+     33E4 mosquitto_subscribe
+     379A __imp_mosquitto_unsubscribe
+     379A mosquitto_unsubscribe
+     2774 __imp_mosquitto_loop
+     2774 mosquitto_loop
+     27E2 __imp_mosquitto_loop_forever
+     27E2 mosquitto_loop_forever
+     311C __imp_mosquitto_socket
+     311C mosquitto_socket
+     28CA __imp_mosquitto_loop_read
+     28CA mosquitto_loop_read
+     2A22 __imp_mosquitto_loop_write
+     2A22 mosquitto_loop_write
+     2858 __imp_mosquitto_loop_misc
+     2858 mosquitto_loop_misc
+     397E __imp_mosquitto_want_write
+     397E mosquitto_want_write
+     2D68 __imp_mosquitto_opts_set
+     2D68 mosquitto_opts_set
+     36B0 __imp_mosquitto_tls_set
+     36B0 mosquitto_tls_set
+     354C __imp_mosquitto_tls_insecure_set
+     354C mosquitto_tls_insecure_set
+     35C6 __imp_mosquitto_tls_opts_set
+     35C6 mosquitto_tls_opts_set
+     363C __imp_mosquitto_tls_psk_set
+     363C mosquitto_tls_psk_set
+     234A __imp_mosquitto_connect_callback_set
+     234A mosquitto_connect_callback_set
+     2520 __imp_mosquitto_disconnect_callback_set
+     2520 mosquitto_disconnect_callback_set
+     2EC2 __imp_mosquitto_publish_callback_set
+     2EC2 mosquitto_publish_callback_set
+     2B18 __imp_mosquitto_message_callback_set
+     2B18 mosquitto_message_callback_set
+     3456 __imp_mosquitto_subscribe_callback_set
+     3456 mosquitto_subscribe_callback_set
+     380E __imp_mosquitto_unsubscribe_callback_set
+     380E mosquitto_unsubscribe_callback_set
+     26FA __imp_mosquitto_log_callback_set
+     26FA mosquitto_log_callback_set
+     302A __imp_mosquitto_reconnect_delay_set
+     302A mosquitto_reconnect_delay_set
+     3890 __imp_mosquitto_user_data_set
+     3890 mosquitto_user_data_set
+     3200 __imp_mosquitto_strerror
+     3200 mosquitto_strerror
+     20FA __imp_mosquitto_connack_string
+     20FA mosquitto_connack_string
+     32EA __imp_mosquitto_sub_topic_tokenise
+     32EA mosquitto_sub_topic_tokenise
+     3366 __imp_mosquitto_sub_topic_tokens_free
+     3366 mosquitto_sub_topic_tokens_free
+     318C __imp_mosquitto_socks5_set
+     318C mosquitto_socks5_set
+     23C8 __imp_mosquitto_connect_srv
+     23C8 mosquitto_connect_srv
+     293C __imp_mosquitto_loop_start
+     293C mosquitto_loop_start
+     29B0 __imp_mosquitto_loop_stop
+     29B0 mosquitto_loop_stop
+     34D6 __imp_mosquitto_threaded_set
+     34D6 mosquitto_threaded_set
+     3720 __imp_mosquitto_topic_matches_sub
+     3720 mosquitto_topic_matches_sub
+     2DDA __imp_mosquitto_pub_topic_check
+     2DDA mosquitto_pub_topic_check
+     3272 __imp_mosquitto_sub_topic_check
+     3272 mosquitto_sub_topic_check
+
+Archive member name at E18: /               
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+     DDE size
+correct header end
+
+    59 offsets
+
+        1     1C32
+        2     1E64
+        3     1F9C
+        4     2B96
+        5     2C0C
+        6     2A96
+        7     2C82
+        8     2686
+        9     2614
+        A     25A0
+        B     2CFC
+        C     243C
+        D     30A6
+        E     3A66
+        F     39F2
+       10     3906
+       11     2172
+       12     2258
+       13     21E2
+       14     22CE
+       15     2F40
+       16     2FB2
+       17     24AC
+       18     2E52
+       19     33E4
+       1A     379A
+       1B     2774
+       1C     27E2
+       1D     311C
+       1E     28CA
+       1F     2A22
+       20     2858
+       21     397E
+       22     2D68
+       23     36B0
+       24     354C
+       25     35C6
+       26     363C
+       27     234A
+       28     2520
+       29     2EC2
+       2A     2B18
+       2B     3456
+       2C     380E
+       2D     26FA
+       2E     302A
+       2F     3890
+       30     3200
+       31     20FA
+       32     32EA
+       33     3366
+       34     318C
+       35     23C8
+       36     293C
+       37     29B0
+       38     34D6
+       39     3720
+       3A     2DDA
+       3B     3272
+
+    115 public symbols
+
+        1 __IMPORT_DESCRIPTOR_mosquitto
+        2 __NULL_IMPORT_DESCRIPTOR
+       31 __imp_mosquitto_connack_string
+       11 __imp_mosquitto_connect
+       13 __imp_mosquitto_connect_async
+       12 __imp_mosquitto_connect_bind
+       14 __imp_mosquitto_connect_bind_async
+       27 __imp_mosquitto_connect_callback_set
+       35 __imp_mosquitto_connect_srv
+        C __imp_mosquitto_destroy
+       17 __imp_mosquitto_disconnect
+       28 __imp_mosquitto_disconnect_callback_set
+        A __imp_mosquitto_lib_cleanup
+        9 __imp_mosquitto_lib_init
+        8 __imp_mosquitto_lib_version
+       2D __imp_mosquitto_log_callback_set
+       1B __imp_mosquitto_loop
+       1C __imp_mosquitto_loop_forever
+       20 __imp_mosquitto_loop_misc
+       1E __imp_mosquitto_loop_read
+       36 __imp_mosquitto_loop_start
+       37 __imp_mosquitto_loop_stop
+       1F __imp_mosquitto_loop_write
+        6 __imp_mosquitto_max_inflight_messages_set
+       2A __imp_mosquitto_message_callback_set
+        4 __imp_mosquitto_message_copy
+        5 __imp_mosquitto_message_free
+        7 __imp_mosquitto_message_retry_set
+        B __imp_mosquitto_new
+       22 __imp_mosquitto_opts_set
+       3A __imp_mosquitto_pub_topic_check
+       18 __imp_mosquitto_publish
+       29 __imp_mosquitto_publish_callback_set
+       15 __imp_mosquitto_reconnect
+       16 __imp_mosquitto_reconnect_async
+       2E __imp_mosquitto_reconnect_delay_set
+        D __imp_mosquitto_reinitialise
+       1D __imp_mosquitto_socket
+       34 __imp_mosquitto_socks5_set
+       30 __imp_mosquitto_strerror
+       3B __imp_mosquitto_sub_topic_check
+       32 __imp_mosquitto_sub_topic_tokenise
+       33 __imp_mosquitto_sub_topic_tokens_free
+       19 __imp_mosquitto_subscribe
+       2B __imp_mosquitto_subscribe_callback_set
+       38 __imp_mosquitto_threaded_set
+       24 __imp_mosquitto_tls_insecure_set
+       25 __imp_mosquitto_tls_opts_set
+       26 __imp_mosquitto_tls_psk_set
+       23 __imp_mosquitto_tls_set
+       39 __imp_mosquitto_topic_matches_sub
+       1A __imp_mosquitto_unsubscribe
+       2C __imp_mosquitto_unsubscribe_callback_set
+       2F __imp_mosquitto_user_data_set
+       10 __imp_mosquitto_username_pw_set
+       21 __imp_mosquitto_want_write
+        F __imp_mosquitto_will_clear
+        E __imp_mosquitto_will_set
+       31 mosquitto_connack_string
+       11 mosquitto_connect
+       13 mosquitto_connect_async
+       12 mosquitto_connect_bind
+       14 mosquitto_connect_bind_async
+       27 mosquitto_connect_callback_set
+       35 mosquitto_connect_srv
+        C mosquitto_destroy
+       17 mosquitto_disconnect
+       28 mosquitto_disconnect_callback_set
+        A mosquitto_lib_cleanup
+        9 mosquitto_lib_init
+        8 mosquitto_lib_version
+       2D mosquitto_log_callback_set
+       1B mosquitto_loop
+       1C mosquitto_loop_forever
+       20 mosquitto_loop_misc
+       1E mosquitto_loop_read
+       36 mosquitto_loop_start
+       37 mosquitto_loop_stop
+       1F mosquitto_loop_write
+        6 mosquitto_max_inflight_messages_set
+       2A mosquitto_message_callback_set
+        4 mosquitto_message_copy
+        5 mosquitto_message_free
+        7 mosquitto_message_retry_set
+        B mosquitto_new
+       22 mosquitto_opts_set
+       3A mosquitto_pub_topic_check
+       18 mosquitto_publish
+       29 mosquitto_publish_callback_set
+       15 mosquitto_reconnect
+       16 mosquitto_reconnect_async
+       2E mosquitto_reconnect_delay_set
+        D mosquitto_reinitialise
+       1D mosquitto_socket
+       34 mosquitto_socks5_set
+       30 mosquitto_strerror
+       3B mosquitto_sub_topic_check
+       32 mosquitto_sub_topic_tokenise
+       33 mosquitto_sub_topic_tokens_free
+       19 mosquitto_subscribe
+       2B mosquitto_subscribe_callback_set
+       38 mosquitto_threaded_set
+       24 mosquitto_tls_insecure_set
+       25 mosquitto_tls_opts_set
+       26 mosquitto_tls_psk_set
+       23 mosquitto_tls_set
+       39 mosquitto_topic_matches_sub
+       1A mosquitto_unsubscribe
+       2C mosquitto_unsubscribe_callback_set
+       2F mosquitto_user_data_set
+       10 mosquitto_username_pw_set
+       21 mosquitto_want_write
+        F mosquitto_will_clear
+        E mosquitto_will_set
+        3 mosquitto_NULL_THUNK_DATA
+
+Archive member name at 1C32: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+     1F5 size
+correct header end
+
+FILE HEADER VALUES
+            8664 machine (x64)
+               3 number of sections
+        555F984E time date stamp Fri May 22 13:57:50 2015
+             10F file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+               0 characteristics
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      43 size of raw data
+      8C file pointer to raw data (0000008C to 000000CE)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 14 00 09 00 00 00 00 00 0D 6D 6F 73  .............mos
+  00000010: 71 75 69 74 74 6F 2E 64 6C 6C 27 00 13 10 07 00  quitto.dll'.....
+  00000020: 00 00 D0 00 00 00 00 00 00 00 0C 00 00 00 7D 79  ..Ð...........}y
+  00000030: 12 4D 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C  .Microsoft (R) L
+  00000040: 49 4E 4B                                         INK
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CF file pointer to raw data (000000CF to 000000E2)
+      E3 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+RELOCATIONS #2
+                                                Symbol    Symbol
+ Offset    Type              Applied To         Index     Name
+ --------  ----------------  -----------------  --------  ------
+ 0000000C  ADDR32NB                   00000000         3  .idata$6
+ 00000000  ADDR32NB                   00000000         4  .idata$4
+ 00000010  ADDR32NB                   00000000         5  .idata$5
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       E size of raw data
+     101 file pointer to raw data (00000101 to 0000010E)
+      E3 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 6D 6F 73 71 75 69 74 74 6F 2E 64 6C 6C 00        mosquitto.dll.
+
+COFF SYMBOL TABLE
+000 00DD797D ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __IMPORT_DESCRIPTOR_mosquitto
+002 C0000040 SECT2  notype       Section      | .idata$2
+003 00000000 SECT3  notype       Static       | .idata$6
+004 C0000040 UNDEF  notype       Section      | .idata$4
+005 C0000040 UNDEF  notype       Section      | .idata$5
+006 00000000 UNDEF  notype       External     | __NULL_IMPORT_DESCRIPTOR
+007 00000000 UNDEF  notype       External     | mosquitto_NULL_THUNK_DATA
+
+String Table Size = 0x56 bytes
+
+Archive member name at 1E64: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      FC size
+correct header end
+
+FILE HEADER VALUES
+            8664 machine (x64)
+               2 number of sections
+        555F984E time date stamp Fri May 22 13:57:50 2015
+              BB file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+               0 characteristics
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      43 size of raw data
+      64 file pointer to raw data (00000064 to 000000A6)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 14 00 09 00 00 00 00 00 0D 6D 6F 73  .............mos
+  00000010: 71 75 69 74 74 6F 2E 64 6C 6C 27 00 13 10 07 00  quitto.dll'.....
+  00000020: 00 00 D0 00 00 00 00 00 00 00 0C 00 00 00 7D 79  ..Ð...........}y
+  00000030: 12 4D 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C  .Microsoft (R) L
+  00000040: 49 4E 4B                                         INK
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A7 file pointer to raw data (000000A7 to 000000BA)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 00DD797D ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __NULL_IMPORT_DESCRIPTOR
+
+String Table Size = 0x1D bytes
+
+Archive member name at 1F9C: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+     122 size
+correct header end
+
+FILE HEADER VALUES
+            8664 machine (x64)
+               3 number of sections
+        555F984E time date stamp Fri May 22 13:57:50 2015
+              DF file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+               0 characteristics
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      43 size of raw data
+      8C file pointer to raw data (0000008C to 000000CE)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 14 00 09 00 00 00 00 00 0D 6D 6F 73  .............mos
+  00000010: 71 75 69 74 74 6F 2E 64 6C 6C 27 00 13 10 07 00  quitto.dll'.....
+  00000020: 00 00 D0 00 00 00 00 00 00 00 0C 00 00 00 7D 79  ..Ð...........}y
+  00000030: 12 4D 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C  .Microsoft (R) L
+  00000040: 49 4E 4B                                         INK
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+      CF file pointer to raw data (000000CF to 000000D6)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0400040 flags
+         Initialized Data
+         8 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00                          ........
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+      D7 file pointer to raw data (000000D7 to 000000DE)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0400040 flags
+         Initialized Data
+         8 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 00 00 00 00 00 00 00 00                          ........
+
+COFF SYMBOL TABLE
+000 00DD797D ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | mosquitto_NULL_THUNK_DATA
+
+String Table Size = 0x1F bytes
+
+Archive member name at 20FA: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000027
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_connack_string
+  Type         : code
+  Name type    : name
+  Hint         : 0
+  Name         : mosquitto_connack_string
+
+Archive member name at 2172: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000020
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_connect
+  Type         : code
+  Name type    : name
+  Hint         : 1
+  Name         : mosquitto_connect
+
+Archive member name at 21E2: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000026
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_connect_async
+  Type         : code
+  Name type    : name
+  Hint         : 2
+  Name         : mosquitto_connect_async
+
+Archive member name at 2258: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000025
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_connect_bind
+  Type         : code
+  Name type    : name
+  Hint         : 3
+  Name         : mosquitto_connect_bind
+
+Archive member name at 22CE: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 0000002B
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_connect_bind_async
+  Type         : code
+  Name type    : name
+  Hint         : 4
+  Name         : mosquitto_connect_bind_async
+
+Archive member name at 234A: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 0000002D
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_connect_callback_set
+  Type         : code
+  Name type    : name
+  Hint         : 5
+  Name         : mosquitto_connect_callback_set
+
+Archive member name at 23C8: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000024
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_connect_srv
+  Type         : code
+  Name type    : name
+  Hint         : 6
+  Name         : mosquitto_connect_srv
+
+Archive member name at 243C: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000020
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_destroy
+  Type         : code
+  Name type    : name
+  Hint         : 7
+  Name         : mosquitto_destroy
+
+Archive member name at 24AC: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000023
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_disconnect
+  Type         : code
+  Name type    : name
+  Hint         : 8
+  Name         : mosquitto_disconnect
+
+Archive member name at 2520: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000030
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_disconnect_callback_set
+  Type         : code
+  Name type    : name
+  Hint         : 9
+  Name         : mosquitto_disconnect_callback_set
+
+Archive member name at 25A0: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000024
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_lib_cleanup
+  Type         : code
+  Name type    : name
+  Hint         : 10
+  Name         : mosquitto_lib_cleanup
+
+Archive member name at 2614: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000021
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_lib_init
+  Type         : code
+  Name type    : name
+  Hint         : 11
+  Name         : mosquitto_lib_init
+
+Archive member name at 2686: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000024
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_lib_version
+  Type         : code
+  Name type    : name
+  Hint         : 12
+  Name         : mosquitto_lib_version
+
+Archive member name at 26FA: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000029
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_log_callback_set
+  Type         : code
+  Name type    : name
+  Hint         : 13
+  Name         : mosquitto_log_callback_set
+
+Archive member name at 2774: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 0000001D
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_loop
+  Type         : code
+  Name type    : name
+  Hint         : 14
+  Name         : mosquitto_loop
+
+Archive member name at 27E2: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000025
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_loop_forever
+  Type         : code
+  Name type    : name
+  Hint         : 15
+  Name         : mosquitto_loop_forever
+
+Archive member name at 2858: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000022
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_loop_misc
+  Type         : code
+  Name type    : name
+  Hint         : 16
+  Name         : mosquitto_loop_misc
+
+Archive member name at 28CA: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000022
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_loop_read
+  Type         : code
+  Name type    : name
+  Hint         : 17
+  Name         : mosquitto_loop_read
+
+Archive member name at 293C: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000023
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_loop_start
+  Type         : code
+  Name type    : name
+  Hint         : 18
+  Name         : mosquitto_loop_start
+
+Archive member name at 29B0: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000022
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_loop_stop
+  Type         : code
+  Name type    : name
+  Hint         : 19
+  Name         : mosquitto_loop_stop
+
+Archive member name at 2A22: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000023
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_loop_write
+  Type         : code
+  Name type    : name
+  Hint         : 20
+  Name         : mosquitto_loop_write
+
+Archive member name at 2A96: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000032
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_max_inflight_messages_set
+  Type         : code
+  Name type    : name
+  Hint         : 21
+  Name         : mosquitto_max_inflight_messages_set
+
+Archive member name at 2B18: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 0000002D
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_message_callback_set
+  Type         : code
+  Name type    : name
+  Hint         : 22
+  Name         : mosquitto_message_callback_set
+
+Archive member name at 2B96: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000025
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_message_copy
+  Type         : code
+  Name type    : name
+  Hint         : 23
+  Name         : mosquitto_message_copy
+
+Archive member name at 2C0C: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000025
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_message_free
+  Type         : code
+  Name type    : name
+  Hint         : 24
+  Name         : mosquitto_message_free
+
+Archive member name at 2C82: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 0000002A
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_message_retry_set
+  Type         : code
+  Name type    : name
+  Hint         : 25
+  Name         : mosquitto_message_retry_set
+
+Archive member name at 2CFC: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 0000001C
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_new
+  Type         : code
+  Name type    : name
+  Hint         : 26
+  Name         : mosquitto_new
+
+Archive member name at 2D68: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000021
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_opts_set
+  Type         : code
+  Name type    : name
+  Hint         : 27
+  Name         : mosquitto_opts_set
+
+Archive member name at 2DDA: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000028
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_pub_topic_check
+  Type         : code
+  Name type    : name
+  Hint         : 28
+  Name         : mosquitto_pub_topic_check
+
+Archive member name at 2E52: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000020
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_publish
+  Type         : code
+  Name type    : name
+  Hint         : 29
+  Name         : mosquitto_publish
+
+Archive member name at 2EC2: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 0000002D
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_publish_callback_set
+  Type         : code
+  Name type    : name
+  Hint         : 30
+  Name         : mosquitto_publish_callback_set
+
+Archive member name at 2F40: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000022
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_reconnect
+  Type         : code
+  Name type    : name
+  Hint         : 31
+  Name         : mosquitto_reconnect
+
+Archive member name at 2FB2: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000028
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_reconnect_async
+  Type         : code
+  Name type    : name
+  Hint         : 32
+  Name         : mosquitto_reconnect_async
+
+Archive member name at 302A: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 0000002C
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_reconnect_delay_set
+  Type         : code
+  Name type    : name
+  Hint         : 33
+  Name         : mosquitto_reconnect_delay_set
+
+Archive member name at 30A6: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000025
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_reinitialise
+  Type         : code
+  Name type    : name
+  Hint         : 34
+  Name         : mosquitto_reinitialise
+
+Archive member name at 311C: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 0000001F
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_socket
+  Type         : code
+  Name type    : name
+  Hint         : 35
+  Name         : mosquitto_socket
+
+Archive member name at 318C: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000023
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_socks5_set
+  Type         : code
+  Name type    : name
+  Hint         : 36
+  Name         : mosquitto_socks5_set
+
+Archive member name at 3200: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000021
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_strerror
+  Type         : code
+  Name type    : name
+  Hint         : 37
+  Name         : mosquitto_strerror
+
+Archive member name at 3272: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000028
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_sub_topic_check
+  Type         : code
+  Name type    : name
+  Hint         : 38
+  Name         : mosquitto_sub_topic_check
+
+Archive member name at 32EA: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 0000002B
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_sub_topic_tokenise
+  Type         : code
+  Name type    : name
+  Hint         : 39
+  Name         : mosquitto_sub_topic_tokenise
+
+Archive member name at 3366: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 0000002E
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_sub_topic_tokens_free
+  Type         : code
+  Name type    : name
+  Hint         : 40
+  Name         : mosquitto_sub_topic_tokens_free
+
+Archive member name at 33E4: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000022
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_subscribe
+  Type         : code
+  Name type    : name
+  Hint         : 41
+  Name         : mosquitto_subscribe
+
+Archive member name at 3456: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 0000002F
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_subscribe_callback_set
+  Type         : code
+  Name type    : name
+  Hint         : 42
+  Name         : mosquitto_subscribe_callback_set
+
+Archive member name at 34D6: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000025
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_threaded_set
+  Type         : code
+  Name type    : name
+  Hint         : 43
+  Name         : mosquitto_threaded_set
+
+Archive member name at 354C: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000029
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_tls_insecure_set
+  Type         : code
+  Name type    : name
+  Hint         : 44
+  Name         : mosquitto_tls_insecure_set
+
+Archive member name at 35C6: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000025
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_tls_opts_set
+  Type         : code
+  Name type    : name
+  Hint         : 45
+  Name         : mosquitto_tls_opts_set
+
+Archive member name at 363C: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000024
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_tls_psk_set
+  Type         : code
+  Name type    : name
+  Hint         : 46
+  Name         : mosquitto_tls_psk_set
+
+Archive member name at 36B0: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000020
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_tls_set
+  Type         : code
+  Name type    : name
+  Hint         : 47
+  Name         : mosquitto_tls_set
+
+Archive member name at 3720: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 0000002A
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_topic_matches_sub
+  Type         : code
+  Name type    : name
+  Hint         : 48
+  Name         : mosquitto_topic_matches_sub
+
+Archive member name at 379A: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000024
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_unsubscribe
+  Type         : code
+  Name type    : name
+  Hint         : 49
+  Name         : mosquitto_unsubscribe
+
+Archive member name at 380E: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000031
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_unsubscribe_callback_set
+  Type         : code
+  Name type    : name
+  Hint         : 50
+  Name         : mosquitto_unsubscribe_callback_set
+
+Archive member name at 3890: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000026
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_user_data_set
+  Type         : code
+  Name type    : name
+  Hint         : 51
+  Name         : mosquitto_user_data_set
+
+Archive member name at 3906: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000028
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_username_pw_set
+  Type         : code
+  Name type    : name
+  Hint         : 52
+  Name         : mosquitto_username_pw_set
+
+Archive member name at 397E: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000023
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_want_write
+  Type         : code
+  Name type    : name
+  Hint         : 53
+  Name         : mosquitto_want_write
+
+Archive member name at 39F2: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000023
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_will_clear
+  Type         : code
+  Name type    : name
+  Hint         : 54
+  Name         : mosquitto_will_clear
+
+Archive member name at 3A66: mosquitto.dll/  
+555F984E time/date Fri May 22 13:57:50 2015
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 555F984E Fri May 22 13:57:50 2015
+  SizeOfData   : 00000021
+  DLL name     : mosquitto.dll
+  Symbol name  : mosquitto_will_set
+  Type         : code
+  Name type    : name
+  Hint         : 55
+  Name         : mosquitto_will_set
+
+     Exports
+
+       ordinal    name
+
+                  mosquitto_connack_string
+                  mosquitto_connect
+                  mosquitto_connect_async
+                  mosquitto_connect_bind
+                  mosquitto_connect_bind_async
+                  mosquitto_connect_callback_set
+                  mosquitto_connect_srv
+                  mosquitto_destroy
+                  mosquitto_disconnect
+                  mosquitto_disconnect_callback_set
+                  mosquitto_lib_cleanup
+                  mosquitto_lib_init
+                  mosquitto_lib_version
+                  mosquitto_log_callback_set
+                  mosquitto_loop
+                  mosquitto_loop_forever
+                  mosquitto_loop_misc
+                  mosquitto_loop_read
+                  mosquitto_loop_start
+                  mosquitto_loop_stop
+                  mosquitto_loop_write
+                  mosquitto_max_inflight_messages_set
+                  mosquitto_message_callback_set
+                  mosquitto_message_copy
+                  mosquitto_message_free
+                  mosquitto_message_retry_set
+                  mosquitto_new
+                  mosquitto_opts_set
+                  mosquitto_pub_topic_check
+                  mosquitto_publish
+                  mosquitto_publish_callback_set
+                  mosquitto_reconnect
+                  mosquitto_reconnect_async
+                  mosquitto_reconnect_delay_set
+                  mosquitto_reinitialise
+                  mosquitto_socket
+                  mosquitto_socks5_set
+                  mosquitto_strerror
+                  mosquitto_sub_topic_check
+                  mosquitto_sub_topic_tokenise
+                  mosquitto_sub_topic_tokens_free
+                  mosquitto_subscribe
+                  mosquitto_subscribe_callback_set
+                  mosquitto_threaded_set
+                  mosquitto_tls_insecure_set
+                  mosquitto_tls_opts_set
+                  mosquitto_tls_psk_set
+                  mosquitto_tls_set
+                  mosquitto_topic_matches_sub
+                  mosquitto_unsubscribe
+                  mosquitto_unsubscribe_callback_set
+                  mosquitto_user_data_set
+                  mosquitto_username_pw_set
+                  mosquitto_want_write
+                  mosquitto_will_clear
+                  mosquitto_will_set
+
+  Summary
+
+          C9 .debug$S
+          14 .idata$2
+          14 .idata$3
+           8 .idata$4
+           8 .idata$5
+           E .idata$6
