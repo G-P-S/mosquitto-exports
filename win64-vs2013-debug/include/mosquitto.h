@@ -21,6 +21,9 @@ Contributors:
 extern "C" {
 #endif
 
+#if 1
+#define libmosq_EXPORT
+#else
 #if defined(WIN32) && !defined(WITH_BROKER)
 #	ifdef libmosquitto_EXPORTS
 #		define libmosq_EXPORT  __declspec(dllexport)
@@ -29,6 +32,7 @@ extern "C" {
 #	endif
 #else
 #	define libmosq_EXPORT
+#endif
 #endif
 
 #ifdef WIN32
@@ -45,7 +49,7 @@ extern "C" {
 
 #define LIBMOSQUITTO_MAJOR 1
 #define LIBMOSQUITTO_MINOR 4
-#define LIBMOSQUITTO_REVISION 0
+#define LIBMOSQUITTO_REVISION 4
 /* LIBMOSQUITTO_VERSION_NUMBER looks like 1002001 for e.g. version 1.2.1. */
 #define LIBMOSQUITTO_VERSION_NUMBER (LIBMOSQUITTO_MAJOR*1000000+LIBMOSQUITTO_MINOR*1000+LIBMOSQUITTO_REVISION)
 

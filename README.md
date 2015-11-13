@@ -51,4 +51,10 @@ CC=/opt/BUILD_TOOLS/arm-a9s/bin/arm-linux-gnueabihf-gcc CXX=/opt/BUILD_TOOLS/arm
 #linux-arm-a9s-debug
 CC=/opt/BUILD_TOOLS/arm-a9s/bin/arm-linux-gnueabihf-gcc CXX=/opt/BUILD_TOOLS/arm-a9s/bin/arm-linux-gnueabihf-g++ LD=/opt/BUILD_TOOLS/arm-a9s/bin/arm-linux-gnueabihf-ld CXXLD=/opt/BUILD_TOOLS/arm-a9s/bin/arm-linux-gnueabihf-ld STRIP=/opt/BUILD_TOOLS/arm-a9s/bin/arm-linux-gnueabihf-strip AR=/opt/BUILD_TOOLS/arm-a9s/bin/arm-linux-gnueabihf-ar AS=/opt/BUILD_TOOLS/arm-a9s/bin/arm-linux-gnueabihf-as NM=/opt/BUILD_TOOLS/arm-a9s/bin/arm-linux-gnueabihf-nm RANLIB=/opt/BUILD_TOOLS/arm-a9s/bin/arm-linux-gnueabihf-ranlib OBJDUMP=/opt/BUILD_TOOLS/arm-a9s/bin/arm-linux-gnueabihf-objdump CFLAGS="-DMQTTVERSION='\"1.4.2\"' -ggdb -I/usr/projects/G-P-S/c-ares/c-ares-exports/linux-arm-a9s-debug/include -I/usr/projects/G-P-S/openssl/openssl-exports/linux-arm-a9s-debug/include" LDFLAGS="-L/usr/projects/G-P-S/c-ares/c-ares-exports/linux-arm-a9s-debug/lib -L/usr/projects/G-P-S/openssl/openssl-exports/linux-arm-a9s-debug/lib -lcares -lssl"  make
 
+#windows-x64
+Run cmake
+Disable SRV
+Set openssl libs to absolute directory ../../openssl/x64/Release_2013/libeay32.lib (example)
+Generate native compiler VS2013 x64 solution.
+Open and build.
 
