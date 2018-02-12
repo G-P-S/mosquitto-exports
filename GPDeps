@@ -1,0 +1,8 @@
+{
+    "info": {
+        "type": "lib",
+        "visibility": "public",
+        "platforms": ["linux", "macos", "win"]
+    }
+}
+
